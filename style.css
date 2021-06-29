@@ -1,0 +1,24 @@
+body
+{
+    background-image: url("background.jpg");
+}
+.btn
+{
+    font-size: 35px;
+    color: black;
+}
+canvas
+{
+    animation-name: canvas-border;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas-border
+{
+   from{box-shadow: 1px 1px 30px blue, 20px 20px 80px red}
+   to{box-shadow: 1px 1px 30px orange, 20px 20px 80px cyan}
+}
+.btn1:hover
+{
+    background-color: red;
+}
